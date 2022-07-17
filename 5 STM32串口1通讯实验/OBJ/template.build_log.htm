@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.18.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1, 1, LIC=GMZI6-D7U2Q-8TZ3P-MPJZS-CALNW-A7D2A
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.18
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.18.0
+Dialog DLL:      TARMSTM.DLL V1.64.0.0
+ 
+<h2>Project:</h2>
+d:\Desktop\keilCode\5 STM32串口1通讯实验\USER\template1.uvprojx
+Project File Date:  07/17/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+main.c(26): warning:  #223-D: function "MYDMA_Config" declared implicitly
+  	MYDMA_Config(DMA1_Channel4, (u32)&USART1->DR, (u32)TEXT_TO_SEND, 5); // DMA1通??4,????为串??1,?娲???为SendBuff,长(TEXT_LENTH+2)*100.
+main.c(29): warning:  #223-D: function "MYDMA_Enable" declared implicitly
+  		MYDMA_Enable(DMA1_Channel4); //开始一??DMA传?洌?
+main.c(19): warning:  #177-D: variable "t" was declared but never referenced
+  	int t, i;
+main.c(19): warning:  #177-D: variable "i" was declared but never referenced
+  	int t, i;
+main.c(20): warning:  #177-D: variable "len" was declared but never referenced
+  	u8 len;
+main.c(21): warning:  #177-D: variable "times" was declared but never referenced
+  	u16 times = 0;
+main.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=4640 RO-data=284 RW-data=48 ZI-data=1632  
+FromELF: creating hex file...
+"..\OBJ\template.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  d:\Desktop\keilCode\5 STM32串口1通讯实验\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

@@ -1,0 +1,15 @@
+..\obj\dma.o: dma.c
+..\obj\dma.o: dma.h
+..\obj\dma.o: ..\HARDWARE\LED\sys.h
+..\obj\dma.o: ..\USER\stm32f10x.h
+..\obj\dma.o: ..\CORE\core_cm3.h
+..\obj\dma.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\dma.o: ..\USER\system_stm32f10x.h
+..\obj\dma.o: ..\USER\stm32f10x_conf.h
+..\obj\dma.o: ..\FWLIB\inc\stm32f10x_dbgmcu.h
+..\obj\dma.o: ..\USER\stm32f10x.h
+..\obj\dma.o: ..\FWLIB\inc\stm32f10x_gpio.h
+..\obj\dma.o: ..\FWLIB\inc\stm32f10x_rcc.h
+..\obj\dma.o: ..\FWLIB\inc\stm32f10x_usart.h
+..\obj\dma.o: ..\FWLIB\inc\misc.h
+..\obj\dma.o: ..\DELAY\delay.h
